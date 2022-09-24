@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Robot" ;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
 :root{  /*variable*/
   --lr-padding: 3%;
   --light-color: rgb(206, 206, 207);
@@ -6,7 +10,12 @@
   margin: 0;
   padding: 0;
 }
+body{
+  font-family: "Robot";
+  font-size:1rem;
+}
 
+/*######################--topNav--################*/
 .FlexBox-Topnav
 {
   padding: 0 5%;
@@ -25,9 +34,29 @@
 .FlexBox-Topnav .Topnav-Link a {
   text-decoration: none;
   color: #6C757D !important;
-  padding:0.2em;
+ /* padding:0.2em;*/
+  line-height: 2.5rem;
+  margin: 5px;
+}
+
+.FlexBox-Topnav .Topnav-Link a:hover {
+  text-decoration: underline;
   
 }
+
+.Topnav-DropDown-List .DD-Title:hover{
+  text-decoration: underline;
+}
+.Topnav-DropDown-List .DD-Title:hover ul{
+display: block;
+}
+.Topnav-DropDown-List ul{
+  display: none;
+}
+
+
+
+
 
 .flex-container {
   display: flex;
