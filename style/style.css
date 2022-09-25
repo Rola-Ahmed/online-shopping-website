@@ -115,48 +115,81 @@ background-clip: padding-box;
 
 
 
-
+/*#################--coloum2--############### */
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  /*background: #6C757D;*/
+ padding:  1rem !important;
 }
 
-.flex-container>div {
+/* .flex-container>div {
 
-  width: 100px;
-  /*margin: 10px;*/
+  
   text-align: center;
-  /*  line-height: 75px;*/
-  /*toul*/
+  
   font-size: 30px;
+} */
+
+.flex-search .search .searchTerm,.searchButton{
+  padding: 0.4rem;
+  border: 1px var(--light-color) solid;
+  margin-left: -0.25rem !important;
 }
 
-.sb-example-1 .search {
-  width: 100%;
-  position: relative;
+.flex-search .search .searchTerm{
+  
+ min-width: 190%;
+}
+
+.flex-search .search i{
+ color:#FFD333;
+}
+.flex-search .search .searchTerm:hover{
+ 
+  border: 1px #FFD333 solid;
+}
+.flex-search .search .searchTerm:active{
+ 
+  border: 1px #FFD333 solid;
+}
+
+
+.flex-search .search form {
   display: flex;
+  padding: -10px;
+  
+
 }
 
 .Logo-Container{
   display: flex;
-  text-align: left;
+ 
 }
 
-.Logo-Container .
+.Logo-Container .logo-Text{
+  font-weight: 700 !important;
+  text-align: left;
+  font-size: 20px;
+  text-transform: uppercase !important;
+  padding: 0.4rem;
+  font-weight:bold;
+  height: min-content; 
+  
+}
 
 .Logo-Container .logo-Text:first-child {
   
-  background-color:white;
-  color:#212529;
-  font-weight: 500 !important;
+  background-color:#3D464D;
+  color:#FFD333;
+  
   display: inline-block;
   margin: 0;
-  text-transform:uppercase;
+ 
   /*line-height: 1em;*/
-content: "MULTI";
-  font-size: 20px;
+
+  
   /* background: linear-gradient(to right, #ffbd09 50%, #454545 50%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -166,7 +199,35 @@ content: "MULTI";
   */
 }
 
+.Logo-Container .logo-Text:last-child {
+  background-color:#FFD333 !important;
+  color:#3D464D;
+}
+
 /* .container {
   background: linear-gradient(to right, #454545 60%, #ffbd09 40%);
   
 } */
+.flex-container .Normal-Text{
+  margin: 0 !important;
+  display: inline;
+}
+.Normal-Text p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  /*margin-block-start: 1em;*/
+ /* margin-block-end: 1em;*/
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.Normal-Text h5{
+  font-weight: 700 !important;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  /*line-height: 1.2;*/
+  color: #3D464D;
+  margin-top: -0.7rem !important;
+}
