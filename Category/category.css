@@ -1,0 +1,203 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.categories {
+    max-width: 300px;   
+  /*  min-width: 300px; */
+   /* position: relative;*/
+ /*   display: inline-block;*/
+    flex:1;
+   
+    
+
+}
+
+/*.categories-Background-color{
+    background-color: aqua;
+}*/
+
+.categories-select {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD333;
+    padding: 20px 10px;
+    /*vertical horizontal*/
+    /*  height: 4rem;*/
+    font-size: 1rem;
+    font-weight: 500;
+ 
+    
+
+}
+
+.categories-Background-color{
+ 
+    background-color: aquamarine !important;
+}
+.categories-select:hover{
+    background-color:#ffc800 ;    
+}
+
+
+.menu-list  {
+    background-color: white;
+    border: 1px rgb(214, 214, 214) solid;
+    list-style: none;
+    padding: 0 5px; /*lil text eli gowa el container*/ 
+    
+   display: none;
+  
+
+
+   /*height: 0;
+   overflow: hidden;
+   transition:0.5s; */
+  
+}
+
+.categories-Background-color{
+  
+} 
+
+
+.categories:hover .menu-list{ /*.categories-selector didnt work*/
+
+    display: block;
+   /*height: initial;*/
+
+}
+
+
+.menu-list ul {
+    position: absolute;
+    width: 100%;
+   
+    }
+
+.categories:hover .menu-list{
+    height: initial;
+}
+
+
+.menu-list  li {
+    border-bottom: 1px  #F5F5F5 solid;
+    /*border-style: 1px ;
+    border-width:1px ;*/
+
+    padding: 5px 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.menu-list  li:hover {
+color: rgba(0, 0, 0, 0.7);
+}
+ 
+.Categories .menu-list li:first-child:hover~.menu-list-dresses{
+   /* background-color: red !important; */
+    display: block;
+   }
+
+.menu-list-dresses {
+   display: none;
+}
+
+
+.menu-list-dresses ul{
+    /*background-color: rgb(242, 127, 150);*/
+    width: 150px;;
+    float: right;
+    left: 370px;
+    top:60px;
+    list-style: none;
+}
+
+
+TopNav2-Links{
+    flex:1;
+}
+
+/*top nav Link*/
+.TopNav2-Links a{  
+    text-decoration: none;
+    color: #ffffff !important;
+   /* padding:0.2em;*/
+    line-height: 2.5rem;
+    margin: 5px;
+  }
+
+
+  .TopNav2-Links a:hover,.TopNav2-Links a:first-child {
+    color: #FFD333 !important;
+   
+  }
+
+
+.Categories-Row{
+    display: flex;
+    /*align-content:space-between;*/
+    justify-content: space-between;
+ /*   background-color:   #3D464D; */
+ background-color: aqua;
+ padding-left: 5rem;
+padding-right: 2rem;
+   
+  }
+
+.Icon-Container{
+  
+position:relative;
+top:12px;
+   /*   align-items: center;
+    
+    vertical-align: middle;*/
+  /*  flex:none;*/
+}
+
+  .Cart-Icons{
+    display:flex;  
+    gap:10px;
+  /*  align-items: center; */
+    
+  }
+
+ 
+  .Icons-increment{
+ display: flex; 
+ gap:2px;
+  }
+
+
+
+
+
+
+  .Cart-Icons i{
+    color: #FFD333;
+
+  }
+  .Cart-Icons p{
+    color: white;
+    text-align: center;
+   line-height: 20px;
+    background: transparent;
+    /*width: 12px;*/
+  /*height: 20px;*/
+   /*border: 1px white solid;
+    width: 50px;*/
+  
+    /*padding: 5px;*/
+    border: 1px solid rgb(255, 255, 255);
+    /*top: 9rem;
+    left: 50%;*/
+  
+   font-weight: 900;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% !important;
+   /* display: flex;*/
+   /* align-items: center;
+   text-align: center; */
+  }
+  
