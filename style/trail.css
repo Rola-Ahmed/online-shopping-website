@@ -180,7 +180,8 @@ top:12px;
 
   }
   .Cart-Icons p{
-    color: white;
+   /* color: white;*/
+    color: #170303;
     text-align: center;
    line-height: 20px;
     background: transparent;
