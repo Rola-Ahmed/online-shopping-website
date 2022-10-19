@@ -1,0 +1,268 @@
+
+<!---------------------------------------------------------------------------------------------TOPNAV2-->
+
+  <div class="Categories">
+
+    <div class="categories-Background-color">
+    <div id="categories-select" class="categories-select">
+      <div><i class="fa fa-bars"></i> Categories</div>
+      <div><i class="fa fa-angle-down"></i></div>
+    </div>
+    </div>
+
+    <div id="hover-menu-list" class="hover-menu-list">
+      <ul class="menu-list">
+        <li>
+          Dresses <span><i class="fa-solid fa-angle-right"></i></span>
+        </li>
+        <!-- <div class="menu-list-dresses">
+          <ul>
+            <li>Men's Dresses</li>
+            <li>Women's Dresses</li>
+            <li>baby's Dresses</li>
+          </ul>
+        </div> -->
+        <li>Shirts
+        <li>
+        <li>Jeans</li>
+        <li>Swimwear</li>
+        <li>sleepwear</li>
+        <li>Sportwear</li>
+        <li>Jumpsuits</li>
+        <li>Blazers</li>
+        <li>Jackets</li>
+        <li>Shoes</li>
+      </ul>
+
+    </div>
+
+
+    
+    <div class="TopNav2-Links">
+      <a href="#Home">Home</a>
+      <a href="#Shop">Shop</a>
+      <a href="#Shop Detials">Shop Detials</a>
+      <a href="#pages">pages <span><i class="fa-solid fa-angle-down"></i></span>
+      </a>
+
+
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <div class="Icon-Container">
+      <div class="Cart-Icons">
+        <div class="Icons-increment">
+          <i class="fa-solid fa-heart"></i>
+
+          <p>0</p>
+        </div>
+
+        <div class="Icons-increment">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>0</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .categories-Background-color{
+      background-color: #212529;
+
+}
+
+
+
+.Categories{
+  position: relative;
+     flex:1;
+}
+.categories-select{
+  flex:1;
+    position: relative;
+      display: flex;
+       margin-left:80px ;
+      justify-content: space-between;
+      /* position: relative;*/
+      /*float: flex; 
+       flex:1; */
+      /* align-content: space-between; 
+      align-items: center; */
+      max-width: 230px;
+      background-color: #FFD333;
+      
+      padding: 20px 10px; /*vertical horizontal*/
+      font-size: 1rem;
+      font-weight: 500;
+}
+
+.categories-select:hover{
+      background-color:#ffc800 ;    
+}
+
+.hover-menu-list{
+  display: none;
+  position: absolute;
+}
+.menu-list {
+  margin-left:80px ;
+ width: 238.9px ;
+    max-width: 238.9px; 
+     background-color: white;
+     border: 1px rgb(214, 214, 214) solid;
+     list-style: none;
+     padding: 0 5px; /*lil text eli gowa el container*/ 
+ 
+  
+     position: absolute;
+  /* z-index: 1; */
+
+ /*height: 0;
+ overflow: hidden;
+ transition:0.5s; */
+}
+
+
+ .Categories .categories-select:hover .Categories .hover-menu-list{ /*.categories-selector didnt work*/
+
+display: block;
+ 
+ /*height: initial;*/
+
+}
+
+#categories-select:hover #hover-menu-list{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+TopNav2-Links{
+  flex:1;
+}
+
+/*top nav Link*/
+.TopNav2-Links a{  
+  text-decoration: none;
+  color: #ffffff !important;
+ /* padding:0.2em;*/
+  line-height: 2.5rem;
+  margin: 5px;
+}
+
+
+
+.TopNav2-Links a:hover,.TopNav2-Links a:first-child {
+  color: #FFD333 !important;
+ 
+}
+
+
+.Categories-Row{
+  display: flex;
+  /*align-content:space-between;*/
+  justify-content: space-between;
+/*   background-color:   #3D464D; */
+
+padding-left: 5rem;
+padding-right: 2rem;
+ 
+}
+
+.Icon-Container{
+
+position:relative;
+top:12px;
+ /*   align-items: center;
+  
+  vertical-align: middle;*/
+/*  flex:none;*/
+}
+
+.Cart-Icons{
+  display:flex;  
+  gap:10px;
+/*  align-items: center; */
+  
+}
+
+
+.Icons-increment{
+display: flex; 
+gap:2px;
+}
+
+
+
+
+
+
+.Cart-Icons i{
+  color: #FFD333;
+
+}
+.Cart-Icons p{
+  color: white;
+  text-align: center;
+ line-height: 20px;
+  background: transparent;
+  /*width: 12px;*/
+/*height: 20px;*/
+ /*border: 1px white solid;
+  width: 50px;*/
+
+  /*padding: 5px;*/
+  border: 1px solid rgb(255, 255, 255);
+  /*top: 9rem;
+  left: 50%;*/
+
+ font-weight: 900;
+  width: 20px;
+  height: 20px;
+  border-radius: 50% !important;
+ /* display: flex;*/
+ /* align-items: center;
+ text-align: center; */
+}
+
+
+
