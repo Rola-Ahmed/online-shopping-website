@@ -309,10 +309,26 @@ padding-right: 4.6rem;
 
 
 /*#################################################################--Top-nav-2--########################333333*/
-.categories {
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.categories-Background-color{
+
+width: 100%;
+}
+.Categories-Row{
+background-color:red;
+}
+
+
+.Categories {
+/* position: absolute; */
   max-width: 300px;   
 /*  min-width: 300px; */
- /* position: relative;*/
+ position: relative;
 /*   display: inline-block;*/
   flex:1;
  
@@ -368,7 +384,7 @@ padding-right: 4.6rem;
 } 
 
 
-.categories:hover .menu-list{ /*.categories-selector didnt work*/
+.Categories:hover .menu-list{ /*.categories-selector didnt work*/
 
   display: block;
  /*height: initial;*/
@@ -444,7 +460,7 @@ TopNav2-Links{
   /*align-content:space-between;*/
   justify-content: space-between;
 /*   background-color:   #3D464D; */
-background-color: aqua;
+
 padding-left: 5rem;
 padding-right: 2rem;
  
