@@ -499,7 +499,8 @@ gap:2px;
 
 }
 .Cart-Icons p{
-  color: white;
+  /*color: white; */
+  color: #170303 ;
   text-align: center;
  line-height: 20px;
   background: transparent;
@@ -509,7 +510,8 @@ gap:2px;
   width: 50px;*/
 
   /*padding: 5px;*/
-  border: 1px solid rgb(255, 255, 255);
+ /* border: 1px solid rgb(255, 255, 255);*/
+ border: 1px solid  #170303 ;
   /*top: 9rem;
   left: 50%;*/
 
